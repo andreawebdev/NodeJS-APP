@@ -1,0 +1,30 @@
+<%- include('header'); -%>
+<header class="masthead">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-12 text-center">
+        <h1 class="font-weight-light fw-bold">WELCOME TO THE APPforBORED</h1>
+        <h3 class="text-white fw-bold">
+          Are you bored? Do not worry, My aim is to help you to pick an activity
+        </h3>
+        <form class="my-3" action="/" method="post">
+          <div class="mb-3">
+            <h4 class="text-white mb-5">
+              How many people are taking part in the activity?
+            </h4>
+            <input
+              type="text"
+              class="form-control"
+              id="participants"
+              name="participants"
+              placeholder="Type the number "
+            />
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</header>
+<%- include('footer'); -%>
